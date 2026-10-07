@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CarCare</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🚗 CarCare</h1>
+
+    <h2>Book Your Car Service</h2>
+
+    <label>Your Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <br><br>
+
+    <label>Select Car</label>
+    <select id="car">
+        <option value="">Select Car</option>
+        <option value="Toyota Corolla">Toyota Corolla</option>
+        <option value="Honda Civic">Honda Civic</option>
+        <option value="Suzuki Alto">Suzuki Alto</option>
+    </select>
+
+    <br><br>
+
+    <label>Select Service</label>
+    <select id="service">
+        <option value="">Select Service</option>
+        <option value="Oil Change">Oil Change</option>
+        <option value="Car Wash">Car Wash</option>
+        <option value="Full Service">Full Service</option>
+    </select>
+
+    <br><br>
+    <button id="bookBtn">Book Service</button>
+
+    <hr>
+
+    <h2>Booking Summary</h2>
+
+    <p id="summary"></p>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
